@@ -5,6 +5,15 @@ public class Pessoa {
     private String dataNascimento;
     private int idade;
 
+    public Pessoa (String nome){
+        this.nome = nome;
+    }
+
+    public Pessoa (String nome, String dataNascimento){
+        this.nome = nome;
+        this.dataNascimento = dataNascimento;
+    }
+
     public Pessoa (String nome, String dataNascimento, int idade){
         this.nome = nome;
         this.dataNascimento = dataNascimento;
