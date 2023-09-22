@@ -179,7 +179,7 @@ public class OperacoesBancariasServiceTest {
         obs.deposito(c, 50.0);
         obs.pagamento(c, 25.0);
 
-        obs.extratoPeriodo(c, new Date("09/01/2023"), new Date("09/30/2023"));
+        obs.extratoPeriodo(c, new Date("09/01/2023"), new Date("09/30/2024"));
 
     }
 
